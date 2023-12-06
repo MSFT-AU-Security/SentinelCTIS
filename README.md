@@ -165,6 +165,9 @@ Indicators can be created manually in Microsoft Sentinel under **Threat manageme
 
 
 
+![](media/indicator.png) 
+
+
 # Microsoft Sentinel Threat Intelligence Indicators for use with CTIS
 
 Supported types for creation through the UI: **file** , **domain-name** , **url** , **ipv4-addr** , **ipv6-addr**. Indicators with type **Multiple** or **email-addr** can be viewed but not created.
