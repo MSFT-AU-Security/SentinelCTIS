@@ -179,8 +179,6 @@ Current use of tags (free text entry):
 - **Incident ID:** _**[id]**_, added by Sentinel when creating an indicator from an incident, playbook currently adds this to the description.
 - **ACSC Export/ACSC Export Complete** , identifies indicators to be processed by the playbook and when submission is complete.
 
-For other required or optional STIX properties, tags could be used with logic in the playbook to check for specific values. Will need to be documented with instructions for Partners on how/when/why to use each given they cannot be selected from a predefined list or made mandatory.
-
 >**NOTE: All indicators that are related to the same Incident in Sentinel should be submitted in a single run of the playbook. If multiple incidents are being submitted, please run the playbook once after tagging the indicators separately mapping to the Incident ID.**
 
 ![](media/image27.png) ![](media/image28.png) ![](media/image29.png) ![](media/image30.png) ![](media/image31.png) 
