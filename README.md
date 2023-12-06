@@ -16,17 +16,16 @@ The purpose of this document is to define detailed procedures for the configurat
 
 The CTIS service is only available to organisations who have signed up as a deeded ACSC Network Partner. To initiate the process to onboard to the CTIS service, please register your interest via the ACSC Partner Portal on the CTIS page. Once the initial onboarding process is completed, the CTIS Service Desk will be in contact to arrange a technical onboarding session where the following steps will be completed. Optionally, ACSC Partners can choose to contribute indicators from Sentinel to the CTIS Community. A separate set of credentials will be provisioned to contribute upon confirmation of readiness to contribute to the service.
 
-**Note:**
-
-| The following general rules apply to content being submitted to CTIS:
-1. All contributions must meet minimum requirements for the CTIS data model, sent to Partners during onboarding. At minimum CTIS requires the following attributes:
-  1. Traffic Light Protocol (TLP) indicating the shareability of the indicators. Note the playbook will set a default TLP tag as a STIX marking definition, which can be fine-tuned using Labels per indicator.
-  2. Confidence level indicating the confidence in the accuracy of the intelligence, and can be selected during submission by the end user.
-2. Please only share validated indicators that appear to be associated with malicious activity, an investigation could have many types of indicators that are not relevant to CTIS.
-3. Context is key, please use description and label fields to provide additional information surrounding the incident.
-4. All content submitted to CTIS is validated by a CTIS Threat Intelligence team analyst for accuracy and correlation. Please consider whether indicators may be relevant to the wider CTIS community before submission.
- |
-| --- |
+>**Note:**
+>
+>The following general rules apply to content being submitted to CTIS:
+>1. All contributions must meet minimum requirements for the CTIS data model, sent to Partners during onboarding. At minimum CTIS requires the following attributes:
+>  a. Traffic Light Protocol (TLP) indicating the shareability of the indicators. Note the playbook will set a default TLP tag as a STIX marking definition, which can be fine-tuned using Labels per indicator.
+>  b. Confidence level indicating the confidence in the accuracy of the intelligence, and can be selected during submission by the end user.
+>2. Please only share validated indicators that appear to be associated with malicious activity, an investigation could have many types of indicators that are not relevant to CTIS.
+>3. Context is key, please use description and label fields to provide additional information surrounding the incident.
+>4. All content submitted to CTIS is validated by a CTIS Threat Intelligence team analyst for accuracy and correlation. Please consider whether indicators may be relevant to the wider CTIS community before submission.
+>
 
 ## Steps to complete on Microsoft Azure to Consume from CTIS
 
