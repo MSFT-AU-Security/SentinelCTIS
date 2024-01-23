@@ -67,6 +67,8 @@ The CTIS service is only available to organisations who have signed up as a deed
 
 This playbook is used to configure Sentinel with the functionality to send created indicators back to CTIS. This playbook is a LogicApp script to bundle Indicators from Sentinel into a STIX package for submission to CTIS.
 
+*Note: you will need to ensure you are logged in with an account that has full access to the Azure subscription before attempting this steps.*
+
 1. From the Azure portal, navigate to the Microsoft Sentinel service.
 
  ![](media/image1.png)
@@ -75,7 +77,7 @@ This playbook is used to configure Sentinel with the functionality to send creat
 
  ![](media/image2.png)
 
-3. Select Content Hub, search for **Australian Cyber Security Centre**, and click **Install**.
+3. Select Content Hub, search for **Australian Cyber Security Centre**, and click **Install**. The current version is **3.0.2**.
 
  ![](media/image8.png)
 
