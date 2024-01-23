@@ -148,10 +148,6 @@ This playbook is used to configure Sentinel with the functionality to send creat
 
  The Logic App runs once per day by default.
 
-**Recommendation:** CTIS packages contributions by Partners into a single STIX package. It is recommended that the playbook only be run once all Indicators have been tagged for Export by adding the AusCtisExport tag. This ensures CTIS threat analysts have contextual information to link indicators into a single campaign. If there is uncertainty, a CTIS Threat Intel Analyst will contact the submitting organisation for clarity.
-
-
-
 # Guidance for creating a new indicator to share with CTIS
 
 Indicators can be created manually in Microsoft Sentinel under **Threat management \> Threat intelligence** or you can select the **Add to TI** option for an entity from the incident investigation pages.
