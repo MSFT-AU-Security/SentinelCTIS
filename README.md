@@ -99,7 +99,7 @@ This playbook is used to configure Sentinel with the functionality to send creat
 
 | Parameter | Value |
 | :--- | :--- |
-| **TAXIIServerRootURL** | https://taxii2.ctis-au.org/trustgroup1 |
+| **TAXIIServerRootURL** | TAXII Server URL provided by CTIS |
 | **TAXIIServerUsername** | Partner Username provided by CTIS |
 | **TAXIIServerPassword** | Partner Password provided by CTIS |
 | **CollectionID** | Created Partner collection UUID provided by CTIS |
