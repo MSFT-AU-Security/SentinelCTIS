@@ -46,7 +46,7 @@ The CTIS service is only available to organisations who have signed up as a deed
 | Parameter | Value |
 | :--- | :--- |
 | **Friendly Name** | Feed Name |
-| **API root URL** | https://taxii2.ctis-au.org/trustgroup1/ |
+| **API root URL** | Feed URL |
 | **Collection ID** | Feed UUID |
 | **Username** | Partner Username |
 | **Password** | Partner Password |
@@ -67,7 +67,7 @@ The CTIS service is only available to organisations who have signed up as a deed
 
 This playbook is used to configure Sentinel with the functionality to send created indicators back to CTIS. This playbook is a LogicApp script to bundle Indicators from Sentinel into a STIX package for submission to CTIS.
 
-*Note: you will need to ensure you are logged in with an account that has full access to the Azure subscription before attempting this steps.*
+*Note: you will need to ensure you are logged in with an account that has full access to the Azure subscription before attempting these steps.*
 
 1. From the Azure portal, navigate to the Microsoft Sentinel service.
 
@@ -103,10 +103,9 @@ This playbook is used to configure Sentinel with the functionality to send creat
 | **TAXIIServerUsername** | Partner Username provided by CTIS |
 | **TAXIIServerPassword** | Partner Password provided by CTIS |
 | **CollectionID** | Created Partner collection UUID provided by CTIS |
+| **OrganizationUUID** | Organization identifier; use the value for the CollectionID provided by CTIS |
 | **SentinelWorkspace** | Name of your Sentinel Instance |
 | **Default TLP Label** | This will provide a TLP Label to all future submissions by default. You can still define a TLP per indicator through tags |
-
-
 
  ![](media/image13.png)
 
@@ -120,7 +119,7 @@ This playbook is used to configure Sentinel with the functionality to send creat
 
  ![](media/image16.png)
  
- 10. Search for Contributor and select **Contributor**. Click **Next.**
+10. Search for Contributor and select **Contributor**. Click **Next.**
 
  ![](media/image17.png)
 
